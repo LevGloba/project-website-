@@ -1,0 +1,5 @@
+#RewriteEngine on
+#RewriteCond %{HTTP_HOST} ^kadresh66\.ru$ [OR]
+#RewriteCond %{HTTP_HOST} ^www\.kadresh66\.ru$
+#RewriteRule ^/?$ "https\:\/\/index\.main\/" [R=301,L]
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+    <link href="css/body.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="js/header.js" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <title>КАДРОВОЕ РЕШЕНИЕ</title>
+    <meta name="keywords" content="кадровое, решение, охрана, труда" charset="utf-8">
+    <meta name="description" content="Кадровое решение-это одна из немногих компаний, 
+                 которая осуществляет весь спектр услуг в сфере управления персоналом. 
+                 Начиная от подбора сотрудников, заканчивая их развитием внутри компании.">
+    <meta name="viewport" content="width=device-width">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <!--#include virtual="include/header.txt"-->
+        </header>
+    </div>
+   <nav class="Big_conteiner">
+       <div class="Glav_conteiner">
+            <p>
+                КАДРОВОЕ РЕШЕНИЕ
+            </p>
+       </div>
+       <div class="Osnov_inf">
+           
+                <div class="Text">
+                    <p>
+                        Одна из немногих компаний на российском рынке, которая осуществляет весь спектр услуг в сфере<br>
+                        управления персоналом. Начиная от подбора сотрудников, заканчивая их развитием внутри компании.<br>
+                        <br>
+                        <br>
+                        Кроме того, мы осуществляем стандартный набор услуг по кадровому аутсорсингу – ведение кадрового<br>
+                        делопроизводства, проведение кадрового аудита, восстановление кадровой документации, подготовка к<br>
+                        проверкам контролирующих органов.<br>
+                        <br>
+                        <br>
+                        Для соискателей и работников мы также предлагаем целый ряд услуг – от карьерного консультирования и составления резюме
+                        до обретения уверенности в себе и защиты интересов.<br>
+                        В нашей команде только проверенные практическим опытом профессионалы.<br><br>
+                            <br>
+                    </p>
+                    <h2>
+                        Как мы взаимодействуем:
+                        <br>
+                        <br>
+                    </h2>
+                    <div class="Sxema">
+                        <img class="Big_sxem" src="sxem.svg">
+                        <img class="Min_sxem"src="sxem2.svg">
+                    </div>
+                    <div class="button">
+                        <a href="Zapros.shtml">
+                            Отправить заявку
+                        </a>
+                    </div>
+                </div>
+                <div class="Glav_IMG">
+                    <img src="Glav.svg">
+                </div>
+       </div>
+       <div class="Poboch_conteiner">
+        <p>
+            С нами Вы экономите свои средства и «нервы», создаете положительный имидж!
+        </p>
+       </div>
+   </nav>
+   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/header.js"></script>
+</body>
+<footer class="footer">
+    <!--#include virtual="include/footer.txt"-->
+</footer>

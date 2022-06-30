@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+.Big_conteiner{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10% 10% 2% 0;
+    z-index: -99999;
+}
+
+.Min_sxem {
+    display: none;
+}
+
+.Glav_conteiner{
+    width: 100%;
+    margin-bottom: 2%;
+    background-color: #F68F54;
+    border-radius: 0 0 300px 0;
+    padding: 0.5% 0% 0.5% 8%;
+    border-top:2px solid #B87E5D;
+}
+
+.Glav_conteiner p{
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.Poboch_conteiner{
+    width: 100%;
+    margin-top: 2%;
+    background-color: #1E7EB2;
+    border-radius: 0 0 300px 0;
+    padding: 0.5% 0% 0.5% 8%;
+    border-top:2px solid #1A6F9D;
+}
+
+.Poboch_conteiner p{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.Osnov_inf{
+    width: 100%;
+    padding: 0;
+    margin: 0 0 0 6%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Glav_IMG{
+    margin: 0;
+    padding: 0;
+    width: 460px;
+    height: 548px;
+}
+
+.Glav_IMG img{
+    width: 100%;
+    height: 100%;
+}
+
+.Text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%;
+    height: 100%;
+}
+
+.Text p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.Spisock{
+    margin: 4% 0 4% 6%;
+}
+
+.Spisock p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+}
+
+.button{
+    width: 50%;
+    height: 70%;
+    background-color: #1CADCE;
+    border-top:3px solid #8bdff1;
+    border-right:3px solid #1893AF;
+    border-bottom:3px solid #1893AF;
+    border-left:3px solid #8bdff1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+a{
+    margin: 1%;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.Sxema{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 1%;
+}
+
+.Big_sxem{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+.Min_sxem {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+
+.button:hover{
+    border-top:3px solid #1CADCE;
+    border-right:3px solid #1CADCE;
+    border-bottom:3px solid #1CADCE;
+    border-left:3px solid #1CADCE;
+    transition-duration: 0.5s;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 38px;
+    margin-bottom: 5%;
+    font-weight: 900;
+}
+
+@media (max-width: 1280px)
+{
+    h1{
+        font-size: 28px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    a{
+        color: white;
+        font-size: 18px;
+    }
+
+    .Big_conteiner{
+        margin: 20% 15% 0% 0;
+    }
+
+    .Glav_conteiner p{
+        font-size: 18px;
+    }
+
+    .Poboch_conteiner p{
+        font-size: 18px;
+    }
+
+    .Glav_IMG{
+        width: 400px;
+        height: 388px;
+    }
+
+    .Spisock p{
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 1040px) {
+
+    .Big_conteiner {
+        margin: 0%;
+    }
+
+    .Osnov_inf{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        justify-content: space-between;
+    }
+
+    .Spisock {
+        width: 70%;
+    }
+
+    .Text {
+        margin-right: 10%;
+        padding: 0;
+        width: 75%;
+    }
+
+    .Sxema{
+        width: 100%;
+        height: 1%;
+        margin-bottom: 1%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .Sxema img{
+        width: 40%;
+        height: 10%;
+    }
+
+
+    .Big_sxem {
+        display: none;
+    }
+
+    .Min_sxem {
+        display: block;
+    }
+}
+
+@media (max-width: 768px)
+{
+    .Sxema img{
+        width: 85%;
+        height: 10%;
+    }
+
+    h1{
+        font-size: 24px;
+    }
+
+    .button{
+        width: 100%;
+    }
+
+    h2{
+        font-size: 18px;
+    }
+
+    a{
+        color: white;
+        font-size: 16px;
+    }
+
+    .Big_conteiner{
+        margin: 30% 10% 3% 0;
+    }
+
+    .Glav_conteiner p{
+        font-size: 16px;
+    }
+
+    .Poboch_conteiner p{
+        font-size: 16px;
+    }
+
+    .Glav_IMG{
+        margin: 0;
+        padding: 0;
+        width: 300px;
+        height:288px;
+    }
+
+    .Text p{
+        font-size: 14px;
+    }
+
+    .Osnov_inf{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        justify-content: space-between;
+    }
+    .Spisock p{
+        font-size: 12px;
+    }
+
+    .Text{
+        width: 85%;
+        margin-right: 6%;
+    }
+}
+
+@media (max-width: 360px)
+{
+
+    .Sxema img{
+        width: 88%;
+        height: 10%;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    h2{
+        font-size: 16px;
+    }
+
+    a{
+        font-size: 14px;
+    }
+
+    .Big_conteiner{
+        margin: 35% 25% 1% 0;
+    }
+
+    .Glav_conteiner p{
+        font-size: 14px;
+    }
+
+    .Poboch_conteiner p{
+        font-size: 12px;
+    }
+
+    .Glav_IMG{
+        margin: 0;
+        padding: 0;
+        width: 100px;
+        height: 88px;
+    }
+
+    .Text p{
+        font-size: 14px;
+    }
+    .Spisock p{
+        font-size: 12px;
+    }
+
+    .Text{
+        width: 85%;
+        margin-right: 6%;
+    }
+
+    
+}

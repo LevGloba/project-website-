@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <link href="css/header.css" rel="stylesheet">
+        <link href="css/Zapros.css" rel="stylesheet">
+        <link href="css/footer.css" rel="stylesheet">
+        <link href="js/header.js" rel="stylesheet">
+        <title>Отправить запрос</title>
+        <meta name="keywords" content="кадровое, сопровождение, Отправить, запрос" charset="utf-8">
+        <meta name="description" content="Отпарвить запрос.">
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <div class="container">
+                    <div class="header_body">
+                        <a href="index.html" class="header_logo">
+                            <img src="logoza-ru-hd.png" alt="logo" class="max_logo">
+                            <img src="favicon.png" alt="logo" class="min_logo">
+                        </a>
+                        <div class="header_burger">
+                            <span></span>
+                        </div>
+                        <nav class="header_menu">
+                            <ul class="header_list">
+                                <li>
+                                    <a href="index.html" class="header_link">Главная</a>
+                                </li>
+                                <li>
+                                    <a href="Yslygi.html" class="header_link">Услуги</a>
+                                </li>
+                                <li>
+                                    <a href="Zapros.html" class="header_link">Отправить заявку</a>
+                                </li>
+                                
+                                <li> 
+                                    <a href="Ourcleant.html" class="header_link">Наши клиенты</a>
+                                </li>
+                                <li>
+                                    <a href="PolesInf.html" class="header_link">Полезная информация</a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                    </div>
+                </div>
+            </header>
+            <div class="zapros">
+                <div class="form">
+                    <form action="php/sendmail.php" method="POST"  class="form_body">
+                        <p class="form_title">
+                            Отпарвить запрос
+                        </p>
+                        <div class="number2">
+                            <div class="number21">
+                                <div class="number211">
+                                    <div class="name ">
+                                        <p>
+                                            Полное имя*
+                                        </p>
+                                    </div>
+                                    <div class="input">
+                                        <input  type="text" name="name" class="form_input ">
+                                    </div>
+                                </div>
+                                <div class="number211">
+                                    <div class="telefon">
+                    
+                                        <p>
+                                            Телефон*
+                                        </p>
+                                    </div>
+                                    <div class="input">
+                                        <input  type="text" name="telefon" class="form_input ">
+                                    </div>
+                                </div>
+                                <div class="number211">
+                                    <div class="email">
+                                        <p>
+                                            Ваш email*
+                                        </p>
+                                    </div>
+                                    <div class="input">
+                                        <input  type="text" name="email" class="form_input ">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="number22">
+                                <div class="OtpravitZapros">
+                                    <p>
+                                        Опишите запрос*
+                                    </p>
+                                </div>
+                                <div class="input">
+                                    <textarea   name="OtpravitZapros" class="form_input "></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="number3">
+                            <div class="checkbox">
+                                <label for="argument" class="checkbox_label"><span>Нажимая кнопку "ОТПРАВИТЬ", я даю свое согласие на обработку персональных данных в соответствии с <a href="Yslov.html"> Условиями</a>*</span></label>
+                            </div>
+                            <div class="button">
+                                <button type="submit" class="form_button">  Отправить </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="K">
+                <div class="Kontakt">
+                    <p>
+                        Контакты  
+                    </p>
+                </div>
+                <div class="Inf">
+                    
+                        <p>
+                            :&nbsp;г.Екатеринбург, ул.Торговая, д.5<br>
+                            Телефон:  + 7(343)206-48-64 <br>
+                            WhatsApp:  +7 (912)219-92-69 <br>
+                            Telegram: +7 (912)219-92-69 <br>
+                            e-mail:  kadresh66@bk.ru <br> 
+                        </p>
+                    
+                </div>
+            </div>
+            <div class="kont">
+                <p>
+                    © vk: lgovba
+                </p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    
+    <script src="js/header.js"></script>
+        
+    </body>
+</html>

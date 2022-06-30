@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.zapros{
+    padding: 0;
+    margin: 10% 3% 10% 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+}
+
+.Sxema{
+    width: 90%;
+    height: 15%;
+}
+
+.Sxema img{
+    width: 100%;
+    height: 100%;
+}
+
+.form{
+    margin: 5% 2% 2% 2%;
+}
+
+.form_body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #58BE69;
+    border-top:2px solid #7be28e;
+    border-right:3px solid #469754;
+    border-bottom:3px solid #469754;
+    border-left:2px solid #7be28e;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 208, 0);
+}
+
+span{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.form_title{
+    margin: 2% auto;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+
+.number2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    margin: 3% 2% 5% 2%;
+}
+
+.number2 p{
+    font-size: 20px;
+}
+
+.number21{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.number211{
+    margin-bottom: 5%;
+}
+
+.input{
+    margin-top: 3%;
+    width: 100%;
+    height: 100%;
+}
+
+input{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 700;
+    width: 100%;
+    height: 5%;
+    background-color: #ffffff;
+}
+
+.number22{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+}
+
+textarea{
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #ffffff;
+}
+
+.number3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 3%;
+}
+
+.checkbox{
+    width: 60%;
+}
+
+.button_glav{
+    width: 20%;
+}
+
+button{
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #1CADCE;
+    border-top:3px solid #8bdff1;
+    border-right:3px solid #1893AF;
+    border-bottom:3px solid #1893AF;
+    border-left:3px solid #8bdff1;
+}
+
+button:hover{
+    border-top:3px solid #1CADCE;
+    border-right:3px solid #1CADCE;
+    border-bottom:3px solid #1CADCE;
+    border-left:3px solid #1CADCE;
+    transition-duration: 0.5s;
+}
+
+@media (max-width: 1500px){
+    .zapros{
+        margin: 20% 3% 15% 3%;
+}
+
+h2{
+    font-size: 20px;
+}
+}
+
+@media (max-width: 768px)
+{
+
+    h2{
+        font-size: 18px;
+    }
+
+    .form_title{
+        font-size: 24px;
+    }
+
+    button{
+        font-size: 14px;
+    }
+
+    .number2 p{
+        font-size: 14px;
+    }
+
+    textarea{
+        font-size: 12px;
+    }
+
+    input{
+        font-size: 12px;
+    }
+    span{
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 500px){
+
+    h2{
+        font-size: 16px;
+    }
+
+    .zapros{
+        margin: 25% 3% 20% 3%;
+    }
+
+    .number2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+    .number3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .form_title{
+        font-size: 20px;
+    }
+
+    button{
+        font-size: 10px;
+    }
+
+    .number2 p{
+        font-size: 12px;
+    }
+
+    textarea{
+        font-size: 10px;
+    }
+
+    input{
+        font-size: 10px;
+    }
+
+    span{
+        font-size: 10px;
+    }
+
+    .form_button {
+        font-size: 10px;
+    }
+
+    .checkbox_label a {
+        font-size: 12px;
+    }
+}
+
+

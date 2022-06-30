@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+    <link href="css/body.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="js/header.js" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <title>КАДРОВОЕ РЕШЕНИЕ</title>
+    <meta name="keywords" content="кадровое, решение, охрана, труда" charset="utf-8">
+    <meta name="description" content="Кадровое решение-это одна из немногих компаний, 
+                 которая осуществляет весь спектр услуг в сфере управления персоналом. 
+                 Начиная от подбора сотрудников, заканчивая их развитием внутри компании.">
+    <meta name="viewport" content="width=device-width">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <!--#include virtual="include/header.txt"-->
+        </header>
+    </div>
+   <nav class="Big_conteiner">
+       <a href="document/sogl.pdf" target="blank">
+           <h1>
+        Согласие посетителей сайта на обработку персональных данных
+        </h1>
+       </a>
+       <a href="document/polojen.pdf" target="blank">
+           <h1>
+        Положение о порядке хранения и защиты персональных данных
+        </h1>
+        </a>
+        <a href="document/politic.pdf" target="blank">
+            <h1>
+            Политика защиты и обработки персональных данных
+            </h1>
+        </a>
+   </nav>
+   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/header.js"></script>
+</body>
+<footer class="footer">
+    <!--#include virtual="include/footer.txt"-->
+</footer>

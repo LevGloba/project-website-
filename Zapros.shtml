@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <link href="css/header.css" rel="stylesheet">
+        <link href="css/Zapros.css" rel="stylesheet">
+        <link href="css/footer.css" rel="stylesheet">
+        <link href="js/header.js" rel="stylesheet">
+        <link href="css/body.css" rel="stylesheet">
+        <title>Отправить запрос</title>
+        <meta name="keywords" content="кадровое, сопровождение, Отправить, запрос" charset="utf-8">
+        <meta name="description" content="Отпарвить запрос.">
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <!--#include virtual="include/header.txt"-->
+            </header>
+        </div>
+            <div class="zapros">
+            
+                <div class="form">
+                    <form action="php/sendmail.php" method="POST"  class="form_body">
+                        <p class="form_title">
+                            Отправить заявку
+                        </p>
+                        <div class="number2">
+                            <div class="number21">
+                                <div class="number211">
+                                    <div class="name ">
+                                        <p>
+                                            Ваше имя*
+                                        </p>
+                                    </div>
+                                    <div class="input">
+                                        <input  type="text" name="name" class="form_input ">
+                                    </div>
+                                </div>
+                                <div class="number211">
+                                    <div class="telefon">
+                    
+                                        <p>
+                                            Телефон*
+                                        </p>
+                                    </div>
+                                    <div class="input">
+                                        <input  type="text" name="telefon" class="form_input ">
+                                    </div>
+                                </div>
+                                <div class="number211">
+                                    <div class="email">
+                                        <p>
+                                            Ваш email*
+                                        </p>
+                                    </div>
+                                    <div class="input">
+                                        <input  type="text" name="email" class="form_input ">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="number22">
+                                <div class="OtpravitZapros">
+                                    <p>
+                                        Опишите запрос*
+                                    </p>
+                                </div>
+                                <div class="input">
+                                    <textarea   name="OtpravitZapros" class="form_input "></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="number3">
+                            <div class="checkbox">
+                                <label for="argument" class="checkbox_label"><span>Нажимая кнопку "ОТПРАВИТЬ", я даю свое согласие на обработку персональных данных в соответствии с 
+                                    <a href="Yslov.shtml" target="blank"> Условиями</a>*</span></label>
+                            </div>
+                            <div class="button_glav">
+                                <button type="submit" class="form_button">  Отправить </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <h2>
+                    Как мы взаимодействуем:
+                    <br>
+                    <br>
+                </h2>
+                <div class="Sxema">
+                    <img class="Big_sxem" src="sxem.svg">
+                    <img class="Min_sxem"src="sxem2.svg">
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/header.js"></script>
+</body>
+<footer class="footer">
+    <!--#include virtual="include/footer.txt"-->
+</footer>

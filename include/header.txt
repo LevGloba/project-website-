@@ -1,0 +1,33 @@
+
+
+
+            <div class="container">
+                <div class="header_body">
+                    <a href="index.shtml" class="header_logo">
+                        <img src="real_logo.svg" alt="logo" class="max_logo">
+                        <img src="favicon 1.svg" alt="logo" class="min_logo">
+                    </a>
+                    <div class="header_burger">
+                        <span></span>
+                    </div>
+                    <nav class="header_menu">
+                        <ul class="header_list">
+                            <li>
+                                <a href="index.shtml" class="header_link">Главная</a>
+                            </li>
+                            <li>
+                                <a href="Yslyg_fiz.shtml" class="header_link">Услуги гражданам</a>
+                            </li>
+                            <li>
+                                <a href="Yslyg_Yr.shtml" class="header_link">Услуги юрлицам</a>
+                            </li>
+                            <li>
+                                <a href="Portfolio.shtml" class="header_link">Портфолио</a>
+                            </li>
+                            <li> 
+                                <a href="Zapros.shtml" class="header_link">Отправить заявку</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>

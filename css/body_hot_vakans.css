@@ -1,0 +1,115 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.nave{
+    width: 100%;
+    margin: 10% 0% 2% 0%;
+    padding: 2% 0% 8% 0%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.cont_IMG_otz {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.IMG_otz{
+    width: 30%;
+    height: 400px;
+    margin: 1% 1% 1% 1%;
+    
+}
+
+.img_otz{
+    width: 100%;
+    height: 100%;
+}
+
+.Osnov_inf {
+    display: flex;
+    flex-direction: row;
+}
+
+.cont_Inf p {
+    font-size: 24px;
+}
+
+@media (max-width: 1200px){
+
+    .nav{
+        margin-top: 10%;
+        padding: 6% 0% 8% 0%;
+    }
+
+}
+
+@media (max-width: 768px){
+
+    .nav{
+        margin-top: 8%;
+        padding: 6% 3% 8% 3%;
+    }
+
+
+ .IMG_otz{
+    width: 30%;
+    height: 350px;
+    margin: 1% 1% 1% 1%;
+    }  
+    
+    .cont_Inf p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 500px){
+
+    .nav{
+        margin-top: 6%;
+        padding: 6% 1% 8% 1%;
+    }
+
+
+   .IMG_otz{
+    margin: 3% 2% 1% 2%;
+    height: 350px;
+    width: 40%;
+   }
+}
+
+@media (max-width: 400px){
+
+    .nave{
+        margin-top: 10%;
+        padding: 6% 1% 8% 1%;
+    }
+
+   .IMG_otz{
+    margin: 1% 2% 1% 2%;
+    height: 300px;
+    width: 40%;
+   }
+
+   .cont_Inf p {
+    font-size: 16px;
+    }
+
+    .Osnov_inf {
+        width: 100%;
+    }
+
+    .Text {
+        width: 60%;
+    }
+
+ 
+}
